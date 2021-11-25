@@ -1,0 +1,249 @@
+.bgimg{
+    background-image: url("https://www.wallpapermaiden.com/wallpaper/31206/download/1920x1080/anime-skyscraper-purple-theme-street-lights-clouds-stars.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+
+} 
+.hearderset{
+    padding-top: 250px;
+    box-sizing: border-box;
+    position: relative;
+    left:-250px;
+
+}  
+.hearderset h2{
+    font-size: 22px;
+    font-style: italic ;
+
+}
+.hearderset h3{
+    font-size: 16px;
+    font-style: italic ;
+
+}
+.aventador{
+    width: 150px;
+}
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.rowsetting{
+    margin: 80px 0px !important;
+}
+.ourservices h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rowsetting p{
+   
+    color: rgb(13, 59, 59);
+
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.navbar-brand img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top:-5px;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-weight: 10;
+}
+.bg-info{
+    background-color: black;
+}
+.navbar{
+    background-color: rgb(21, 0, 27);
+}
+/***********************SELECT YOUR RIDE***********************/
+
+.select{
+    height: 1100px;
+    width: 100%;
+    padding:100px 0px 50Ppx ;
+}
+.select h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+.select img{
+    height: 230px;
+    width: 600px; 
+}
+.working{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.working h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.teamsetting{
+    margin-top: 10 0px !important;
+}
+.footer{
+    height: 50px;
+}
+.footer h6{
+    line-height: 50px;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #161616;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #edf1fd;
+    position: relative;
+    background-image: url("img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: Calibri;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: #340052;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+.name{
+    font-family: calibri;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+
+}
+.name h3:nth-child(1),
+.name .details{
+    color: #eff3ff;
+    font-size: 16px;
+}
+.name h1{
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #edf1fd;
+}
+
+.lang{
+    color: #eff3ff;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #eff3ff;
+    font-family: Poppins;
+}
+.menu li a:hover,
+.active{
+    background-color: #292929;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    transition: all ease 0.4s;
+
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+}
+.about-text{
+    font-family: calibri;
+    width: 50;
+}
+.about-text h1{
+    font-size: 5rem;
+    color: #17d1ac;
+}
+.about-text h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.about-text h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+.about-text p{
+    font-size: 1.2rem;
+    color: rgba(251, 251, 251, 0.90);
+}
+.about-text button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #17d1ac;
+}
+.about-text button:hover{
+    background-color: #FFFFFF;
+    transition: all ease 0.3s;
+}
+.arrow{
+    align-self: end;
+    width: 50%;
+    height: 15%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0px;
+    left: -3%;
+    border-right: 1px solid #eff3ff;
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: #eff3ff transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px;
+}
